@@ -1,0 +1,72 @@
+# YAML variables template for `template_olivin.md`
+# Fill or override values per-product. Keep lists for galleries and JSON images.
+
+product_name: "Example Product"
+second_name: ""
+h1: ""
+
+# Identifiers & pricing
+product_code: "ARAT00"
+price: "0.00"
+buy_price: "0.00"
+currency: "CZK"
+
+# Hero image (single)
+hero_image: "images/hero.jpg"
+hero_alt: "Main hero image alt text"
+
+# Gallery slides: ordered list of slides (image + optional caption)
+gallery_slides:
+  - image: "images/slide1.jpg"
+    caption: ""
+  - image: "images/slide2.jpg"
+    caption: ""
+
+# JSON-LD images (for `{{JSON_IMAGES}}` array); list of objects
+json_images:
+  - url: "https://example.org/images/hero.jpg"
+    width: 1200
+    height: 800
+
+# Descriptions (short / long)
+description_short: "Short summary for listings and previews."
+description_long: |
+  Full long description in Markdown/HTML as needed.
+  Use multiline block if necessary.
+
+# Minerals: list of named items used in the page (keeps structure flexible)
+minerals:
+  - name: "Mineral One"
+    description: "Short description of mineral one."
+  - name: "Mineral Two"
+    description: "Short description of mineral two."
+
+# Planting / schedule info
+planting:
+  sapling_date: "2025-02-10"   # date when saplings available (YYYY-MM-DD)
+  plant_date: "2025-04-04"     # recommended planting date (YYYY-MM-DD)
+
+# Manufacturer and contact info
+manufacturer:
+  name: "Manufacturer Name"
+  address: "Street 123, City"
+
+contact:
+  email: "info@example.com"
+  phone: "+420 000 000 000"
+
+# Page metadata
+page:
+  created: "2025-02-24"
+  updated: "2025-02-24"
+  url: "/products/example-product.html"
+
+# Optional arrays/tags for site generation
+tags: ["olivin", "mineral"]
+
+seo:
+  title: ""
+  meta_description: ""
+
+# Any additional free-form fields can be added below and will be available
+# for simple placeholder replacement (e.g. {{MY_CUSTOM_FIELD}}).

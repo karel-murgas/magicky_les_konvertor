@@ -1,0 +1,64 @@
+product_name: ""
+second_name: ""
+product_code: ""
+price: 
+buy_price: 
+price_currency: "CZK"
+availability: "InStock"
+inventory: 
+url: ""
+seo_title: ""
+seo_description: ""
+fb_title: ""
+fb_description: ""
+hero_image: ""
+family_gallery_lead_image: ""
+gallery_collection_slides:
+  - image: ""
+    caption: ""
+    link: ""
+gallery_detail_slides:
+  - image: ""
+    caption: ""
+mineral_lead_image: ""
+mineral_1_name: ""
+mineral_1_desc: ""
+mineral_2_name: ""
+mineral_2_desc: ""
+mineral_3_name: ""
+mineral_3_desc: ""
+prinos_desc: ""
+planting:
+  sapling_date: ""
+  plant_date: ""
+  gps_url: ""
+  planting_image: ""
+  planting_cert_image: ""
+ritual_image: ""
+contact_email: ""
+contact_phone: ""
+manufacturer_name: ""
+manufacturer_address: ""
+page_created: ""
+page_updated: ""
+page_url: ""
+json_images:
+  - ""
+
+PRODUCT_NAME: ""
+SECOND_NAME: ""
+PRODUCT_CODE: ""
+PRICE: 
+BUY_PRICE: 
+URL: ""
+SEO_TITLE: ""
+SEO_DESC: ""
+FB_TITLE: ""
+FB_DESC: ""
+H1: ""
+SHORT_DESC: ""
+PRIMARY_BENEFIT: ""
+SECONDARY_BENEFIT: ""
+HERO_IMAGE: ""
+STORY_HTML: |-
+  

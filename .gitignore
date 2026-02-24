@@ -1,0 +1,24 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.generated.md
+/.idea/
+.vscode/
+env/
+build/
+dist/
+*.egg-info/
+instance/
+.pytest_cache/
+node_modules/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# local secrets
+*.env
+secrets.yaml
